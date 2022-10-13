@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'Hello 小陈',
-    description: 'Hello 小陈',
+    title: 'Hello World',
+    description: 'Hello World',
     // base: '/got_address/' /* DEV基础虚拟路径 */,
     base: '../' /* PROD 虚拟路径 */,
     dest: './dist',
@@ -11,14 +11,15 @@ module.exports = {
         ]
     ],
     themeConfig: {
-        logo: './logo.png',
+        logo: '/logo.png',
         sidebar: [
             {
-                title: 'GOT',
+                title: 'Movie',
                 collapsable: false,
                 children: [
                     '/chapter1/mobile',
                     '/chapter1/pc',
+                    '/chapter1/UNNATURAL',
                     '/chapter1/GOT_S01',
                     '/chapter1/GOT_S02',
                     '/chapter1/GOT_S03',
@@ -27,6 +28,7 @@ module.exports = {
                     '/chapter1/GOT_S06',
                     '/chapter1/GOT_S07',
                     '/chapter1/GOT_S08',
+                    
                 ]
             }
         ]
