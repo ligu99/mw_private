@@ -1,8 +1,8 @@
 module.exports = {
-    title: 'Hello World',
-    description: 'Hello World',
+    title: 'Movie',
+    description: 'Movie',
     // base: '/got_address/' /* DEV基础虚拟路径 */,
-    base: '../' /* PROD 虚拟路径 */,
+    base: '/' /* PROD 虚拟路径 */,
     dest: './dist',
     head: [
         [
